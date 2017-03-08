@@ -27,7 +27,7 @@ if (answer3.toLowerCase() === 'yes' || answer3.toLowerCase() === 'y') {
 var answer4 = prompt('Ok. Do I use an umbrella?');
 console.log(answer4);
 if (answer4.toLowerCase() === 'yes' || answer4.toLowerCase() === 'y') {
-  alert('Yes! Even though I a not native, I think umbrellas are a pain.');
+  alert('Yes! Even though I\'m not native, I think umbrellas are a pain.');
 } else if (answer4.toLowerCase() === 'no' || answer4.toLowerCase() === 'n') {
   alert('Sorry, Gortex is cool.');
 } else {
