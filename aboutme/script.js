@@ -43,3 +43,37 @@ if (answer5.toLowerCase() === 'sub' || answer5.toLowerCase() === 'S'){
 } else {
   alert('You didn\'t put in a proper answer!');
 }
+
+var step;
+for (step = 0; step < 5; step++) {
+  // Runs 5 times, with values of step 0 through 4.
+  console.log('Walking east one step');
+}
+
+for (var i = 0; i < 5; i++){
+  var answer = prompt('Pick a number between 1 and 50');
+  console.log(typeof answer);
+  if (answer == 27){
+    alert('Nice job! You guessed right!');
+    console.log(answer);
+    break;
+  } else {
+    alert('Sorry, guess again!');
+    console.log(answer);
+  }
+}
+
+for (var i = 0; i < 6; i++){
+  var answer = prompt('What is one color of the Romanian flag?');
+  var possibleAnswers = ['red','yellow','blue'];
+  console.log(typeof answer);
+  if (possibleAnswers.includes(answer)){
+    alert('Nice job! You guessed right!');
+    console.log(answer);
+    break;
+  }
+  else {
+    alert('Sorry, guess again!');
+    console.log(answer);
+  }
+  
