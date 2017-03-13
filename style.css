@@ -1,40 +1,67 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
+nav{
+padding-top: 20px;
+font-size: 18px;
+margin: 20px;
+}
+
 h1{
-  padding-top: 100px;
-  font-size:4em;
-  text-align: center;
+  padding-top: 50px;
+  font-size: 70px;
+  text-align: left;
   margin: 0.67em 0;
   font-family: 'Rubik Mono One', sans-serif;
-  margin: 10px;
+  margin: 20px;
 }
 
-h4{
+h2{
   font-family: 'Ubuntu', sans-serif;
-  text-align: center;
+  text-align: left;
+  font-size:15px;
+  margin: 20px;
 }
 
-body {
-  margin: 0;
-}
-
-#main_container {
- width: 400px;
- margin: 20px auto;
- border: 2px solid #555;
- padding: 5px;
+.brclear {
+clear:both;
+height:0;
+margin:0;
+font-size: 1px;
+line-height: 0;
 }
 
 .floated_box {
+ font-family: monospace;
+ font-kerning: auto;
  float: left;
- width: 100px;
- height: 100px;
- border: 1px solid #990000;
- margin: 10px;
+ width: 300px;
+ height: 300px;
+ border: .5px dashed #ff6600;
+ margin: 20px;
 }
 
 section{
