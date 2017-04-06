@@ -63,15 +63,16 @@ sub();
 function twentySeven() {
   for (var i = 0; i < 5; i++) {
     var answer = prompt('Pick a number between 1 and 50. You have 5 attempts.');
-    console.log(typeof answer);
     if (answer == 27) {
       alert('Nice job! You guessed right!');
       correct++;
-      console.log(answer);
       break;
+    } else if (answer < 27) {
+      alert('Last guess was too low!');
+      correct++;
     } else {
-      alert('Sorry, guess again!');
-      console.log(answer);
+      alert('Last guess was too high!');
+      correct++;
     }
   }
 }
