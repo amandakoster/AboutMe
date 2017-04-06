@@ -67,6 +67,7 @@ h2{
 }
 
 .floated_box {
+	padding: 10px;
  font-family: monospace;
  color: #ff6600
  text-decoration: none !important;
@@ -78,6 +79,7 @@ h2{
 }
 
 .floated_box2 {
+	padding: 10px;
  font-family: monospace;
  text-align: center;
  color: #ff6600
@@ -97,6 +99,10 @@ section{
   width: 50%;
   color:gray;
   display: inline-block;
+}
+
+ol, ul {
+	padding-left: 25px;
 }
 
 footer {
