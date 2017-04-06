@@ -37,7 +37,7 @@ function umbrella() {
   var answer4 = prompt('Ok. Do I use an umbrella?');
   console.log(answer4);
   if (answer4.toLowerCase() === 'yes' || answer4.toLowerCase() === 'y') {
-    alert('Yes! Even though I\'m not native, I think umbrellas are a pain.');
+    alert('Correct! Even though I\'m not native, I think umbrellas are a pain.');
     correct++;
   } else if (answer4.toLowerCase() === 'no' || answer4.toLowerCase() === 'n') {
     alert('Sorry, Gortex is cool.');
@@ -51,10 +51,10 @@ function sub() {
   var answer5 = prompt('Last question. Do I say sub or hogie??');
   console.log(answer5);
   if (answer5.toLowerCase() === 'sub' || answer5.toLowerCase() === 'S'){
-    alert('Sub.');
+    alert('Yes, I say sub.');
     correct++;
-  } else if (answer5.toLowerCase() === 'hogie' || answer5.toLowerCase() === 'h') {
-    alert('The user is unfortunately not ready to rumble.');
+  } else if (answer5.toLowerCase() === 'hoagie' || answer5.toLowerCase() === 'h') {
+    alert('Nope.');
   } else {
     alert('You didn\'t put in a proper answer!');
   }
