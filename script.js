@@ -1,5 +1,4 @@
 'use strict';
-
 var correct = 0;
 var name = prompt('what is your name?');
 alert('Welcome ' + name + '!');
@@ -11,7 +10,7 @@ function answer2() {
   if (answer2.toLowerCase() === 'yes' || answer2.toLowerCase() === 'y') {
     alert('Hmm. For some reason ' + name + ' thinks Amanda is a native Seattleite.');
   } else if (answer2.toLowerCase() === 'no' || answer2.toLowerCase() === 'n') {
-    alert ('You\'re correct! Amanda is not originally from Seattle.');
+    alert('You\'re correct! Amanda is not originally from Seattle.');
     correct++;
   } else {
     alert(name + ', ' + 'ya gotta play to get to the end. Humor me!');
@@ -50,7 +49,7 @@ umbrella();
 function sub() {
   var answer5 = prompt('Last question. Do I say sub or hogie??');
   console.log(answer5);
-  if (answer5.toLowerCase() === 'sub' || answer5.toLowerCase() === 'S'){
+  if (answer5.toLowerCase() === 'sub' || answer5.toLowerCase() === 'S') {
     alert('Yes, I say sub.');
     correct++;
   } else if (answer5.toLowerCase() === 'hoagie' || answer5.toLowerCase() === 'h') {
@@ -62,10 +61,10 @@ function sub() {
 sub();
 
 function twentySeven() {
-  for (var i = 0; i < 5; i++){
+  for (var i = 0; i < 5; i++) {
     var answer = prompt('Pick a number between 1 and 50. You have 5 attempts.');
     console.log(typeof answer);
-    if (answer == 27){
+    if (answer == 27) {
       alert('Nice job! You guessed right!');
       correct++;
       console.log(answer);
@@ -79,23 +78,21 @@ function twentySeven() {
 twentySeven();
 
 function color() {
-  for (var i = 0; i < 6; i++){
+  for (var i = 0; i < 6; i++) {
     var answer = prompt('What is one color of the Romanian flag?');
-    var possibleAnswers = ['red','yellow','blue'];
+    var possibleAnswers = ['red', 'yellow', 'blue'];
     console.log(typeof answer);
-    if (possibleAnswers.includes(answer)){
+    if (possibleAnswers.includes(answer)) {
       alert('Nice job! You guessed right!');
       correct++;
       console.log(answer);
       break;
-    }
-    else {
+    } else {
       alert('Sorry, guess again!');
       console.log(answer);
     }
   }
 }
 color();
-
 alert('The colors of the Romanian flag are red, yellow, blue!');
 alert('Awesome, ' + name + '! You got ' + correct + ' out of 7 questions correct!');
