@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+html, body, article, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -67,6 +67,7 @@ h2{
 }
 
 .floated_box {
+	padding: 10px;
  font-family: monospace;
  color: #ff6600
  text-decoration: none !important;
@@ -78,6 +79,7 @@ h2{
 }
 
 .floated_box2 {
+	padding: 10px;
  font-family: monospace;
  text-align: center;
  color: #ff6600
@@ -97,6 +99,10 @@ section{
   width: 50%;
   color:gray;
   display: inline-block;
+}
+
+ol, ul {
+	padding-left: 25px;
 }
 
 footer {
